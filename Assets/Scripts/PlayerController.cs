@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     public Text GameOverText;
     private int score = 0;
     private bool countScoreState = false;
-    private float maxOffset = 8.5f;
+    private float maxOffset = 8.0f;
     private float originalX;
 
     // Start is called before the first frame update
