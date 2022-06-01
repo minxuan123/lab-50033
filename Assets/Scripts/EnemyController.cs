@@ -19,9 +19,11 @@ public class EnemyController : MonoBehaviour
         originalX = transform.position.x;
         ComputeVelocity();
     }
+   
     void ComputeVelocity(){
         velocity = new Vector2((moveRight)*maxOffset / enemyPatroltime, 0);
     }
+    
     void MoveGomba(){
         enemyBody.MovePosition(enemyBody.position + velocity * Time.fixedDeltaTime);
     }

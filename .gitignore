@@ -18,6 +18,8 @@
 [Ww]indows[Bb]uild/
 [Dd]ebug[Oo]utput/
 [Dd]ebug[Oo]utput.meta
+[Rr]ecordings/
+
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 ![Aa]ssets/**/*.meta
