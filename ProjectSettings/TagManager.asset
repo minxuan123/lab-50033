@@ -19,16 +19,16 @@ TagManager:
   - Obstacles
   - QuestionBox
   - Spawned
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - BG1
+  - BG2
+  - BG3
+  - BG4
+  - BG5
+  - BG6
+  - BG7
+  - BG8
+  - BG9
+  - BG10
   - 
   - 
   - 
@@ -47,3 +47,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 1
+  - name: layer1
+    uniqueID: 3160769233
+    locked: 0
