@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     private bool countScoreState = false;
     private Animator marioAnimator;
     private AudioSource marioAudio;
+    public ParticleSystem dustCloud;
 
     // Start is called before the first frame update
     void  Start()
@@ -102,6 +103,7 @@ public class PlayerController : MonoBehaviour
             marioAnimator.SetBool("onGround", onGroundState);
             countScoreState = false; // reset score state
             scoreText.text = "Score: " + score.ToString();
+            dustCloud.Play();
         };    
     }
 
@@ -110,6 +112,18 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("Collided with Gomba!");
+            GameOverText.gameObject.SetActive(true);
+            GameOverText.text = "Game Over!";
+            Time.timeScale = 0;
+            await Task.Delay(3000);
+            Time.timeScale = 1;
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.UnloadSceneAsync(scene.buildIndex);
+            SceneManager.LoadScene(scene.name);
+        }
+
+        else if (other.gameObject.CompareTag("Fire")) 
+        {
             GameOverText.gameObject.SetActive(true);
             GameOverText.text = "Game Over!";
             Time.timeScale = 0;

@@ -14695,10 +14695,52 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: cloud_tile
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e206a3d37b464d4290f2089d2757568
+      internalID: 1873778911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_til
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 7, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7d8874210ed6140b8bb81d3cba0cc1
+      internalID: -1440116926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 69425bd91ab9db34bb4ef89208353888
     internalID: 0
     vertices: []
     indices: 
@@ -14707,10 +14749,10 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       tiles_464: 21300928
-      tiles_553: 21301106
+      tiles_126: 21300252
       tiles_74: 21300148
       tiles_442: 21300884
-      tiles_529: 21301058
+      tiles_478: 21300956
       tiles_112: 21300224
       castle_doortop: 21300080
       tiles_212: 21300424
@@ -14727,7 +14769,6 @@ TextureImporter:
       tiles_76: 21300152
       tiles_216: 21300432
       tiles_582: 21301164
-      tiles_518: 21301036
       tiles_438: 21300876
       tiles_6: 21300012
       tiles_91: 21300182
@@ -14740,6 +14781,7 @@ TextureImporter:
       tiles_601: 21301202
       tiles_445: 21300890
       tiles_4: 21300008
+      tiles_482: 21300964
       tiles_578: 21301156
       tiles_42: 21300084
       tiles_583: 21301166
@@ -14850,19 +14892,20 @@ TextureImporter:
       tiles_234: 21300468
       tiles_367: 21300734
       tiles_543: 21301086
+      cloud_til: -1440116926
       tiles_599: 21301198
       tiles_395: 21300790
       tiles_557: 21301114
       tiles_344: 21300688
       tiles_506: 21301012
       tiles_165: 21300330
-      tiles_97: 21300194
       tiles_431: 21300862
       tiles_170: 21300340
       tiles_426: 21300852
+      tiles_97: 21300194
       tiles_559: 21301118
-      tiles_331: 21300662
       tiles_390: 21300780
+      tiles_331: 21300662
       tiles_99: 21300198
       tiles_236: 21300472
       tiles_321: 21300642
@@ -14873,13 +14916,13 @@ TextureImporter:
       tiles_590: 21301180
       tiles_362: 21300724
       tiles_19: 21300038
-      tiles_128: 21300256
-      tiles_363: 21300726
       tiles_413: 21300826
+      tiles_363: 21300726
+      tiles_128: 21300256
+      tiles_462: 21300924
       tiles_199: 21300398
       tiles_178: 21300356
       coin_1: 21300104
-      tiles_462: 21300924
       tiles_148: 21300296
       tiles_98: 21300196
       tiles_357: 21300714
@@ -15008,9 +15051,9 @@ TextureImporter:
       tiles_175: 21300350
       tiles_223: 21300446
       tiles_274: 21300548
-      tiles_145: 21300290
       tiles_30: 21300060
       tiles_530: 21301060
+      tiles_145: 21300290
       tiles_66: 21300132
       tiles_33: 21300066
       tiles_94: 21300188
@@ -15031,17 +15074,17 @@ TextureImporter:
       tiles_93: 21300186
       tiles_48: 21300096
       tiles_101: 21300202
-      tiles_225: 21300450
       tiles_593: 21301186
+      tiles_225: 21300450
       tiles_213: 21300426
-      tiles_302: 21300604
       tiles_228: 21300456
-      tiles_359: 21300718
+      tiles_486: 21300972
       tiles_378: 21300756
       tiles_510: 21301020
       tiles_290: 21300580
-      tiles_486: 21300972
+      tiles_302: 21300604
       tiles_82: 21300164
+      tiles_359: 21300718
       tiles_568: 21301136
       tiles_83: 21300166
       background_hill_down: 21300500
@@ -15092,6 +15135,7 @@ TextureImporter:
       tiles_174: 21300348
       tiles_333: 21300666
       tiles_541: 21301082
+      cloud_tile: 1873778911
       tiles_56: 21300112
       tiles_159: 21300318
       tiles_261: 21300522
@@ -15300,18 +15344,18 @@ TextureImporter:
       tiles_597: 21301194
       tiles_365: 21300730
       tiles_385: 21300770
+      tiles_103: 21300206
       tiles_15: 21300030
-      tiles_126: 21300252
       tiles_111: 21300222
       tiles_58: 21300116
-      tiles_37: 21300074
+      tiles_529: 21301058
       tiles_10: 21300020
-      tiles_103: 21300206
-      tiles_140: 21300280
-      tiles_108: 21300216
       tiles_490: 21300980
-      tiles_478: 21300956
-      tiles_482: 21300964
+      tiles_553: 21301106
+      tiles_140: 21300280
+      tiles_518: 21301036
+      tiles_37: 21300074
+      tiles_108: 21300216
       tiles_495: 21300990
       tiles_310: 21300620
   spritePackingTag: 
